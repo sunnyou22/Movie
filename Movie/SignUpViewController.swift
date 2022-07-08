@@ -19,7 +19,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var informationSwitch: UISwitch!
     @IBOutlet var textFieldList: [UITextField]!
     
-    
+    //MARK: - 뷰로드
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .black
@@ -58,13 +58,13 @@ class SignUpViewController: UIViewController {
         signUp.backgroundColor = .white
     }
     
+    //MARK: - 메서드
     func setTextFieldsDefault(at textField: UITextField, _ text: String, placeholder: String, keyboardType: UIKeyboardType) {
         textField.text = text
         textField.placeholder = placeholder
         textField.keyboardType = keyboardType
     }
     
-   
     @IBAction func isSecureTextEntry(_ sender: UITextField) {
         password.text = ""
         password.isSecureTextEntry = true

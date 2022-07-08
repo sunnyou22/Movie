@@ -38,6 +38,7 @@ class ViewController: UIViewController {
     }
     
     //MARK: - 메서드
+    
     @IBAction func changePosterImageView(_ sender: UIButton) {
         
         shufflePosters()
