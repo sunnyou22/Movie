@@ -22,26 +22,33 @@ class ViewController: UIViewController {
             image.layer.borderWidth = 3
             image.layer.borderColor = UIColor.lightGray.cgColor
         }
-        
-        //        movieOne.layer.cornerRadius = 60
-        //        movieOne.layer.borderWidth = 3
-        //        movieOne.layer.borderColor = UIColor.gray.cgColor
-        //        movieTwo.layer.cornerRadius = 60
-        //        movieTwo.layer.borderWidth = 3
-        //        movieTwo.layer.borderColor = UIColor.gray.cgColor
-        //        movieThree.layer.cornerRadius = 60
-        //        movieThree.layer.borderWidth = 3
-        //        movieThree.layer.borderColor = UIColor.gray.cgColor
+        /*
+         이전 작성 코드
+         movieOne.layer.cornerRadius = 60
+         movieOne.layer.borderWidth = 3
+         movieOne.layer.borderColor = UIColor.gray.cgColor
+         movieTwo.layer.cornerRadius = 60
+         movieTwo.layer.borderWidth = 3
+         movieTwo.layer.borderColor = UIColor.gray.cgColor
+         movieThree.layer.cornerRadius = 60
+         movieThree.layer.borderWidth = 3
+         movieThree.layer.borderColor =
+         UIColor.gray.cgColor
+         */
     }
     
+    //MARK: - 메서드
     @IBAction func changePosterImageView(_ sender: UIButton) {
+        
         shufflePosters()
         
-        
-        //        posterImageView.image = UIImage(named: "movie\(Int.random(in: 1...4))")
-        //        movieOne.image = UIImage(named: "movie\(Int.random(in: 1...4))")
-        //        movieTwo.image = UIImage(named: "movie\(Int.random(in: 1...4))")
-        //        movieThree.image = UIImage(named: "movie\(Int.random(in: 1...4))")
+        /*
+         이 전에 작성한 코드
+         posterImageView.image = UIImage(named: "movie\(Int.random(in: 1...4))")
+         movieOne.image = UIImage(named: "movie\(Int.random(in: 1...4))")
+         movieTwo.image = UIImage(named: "movie\(Int.random(in: 1...4))")
+         movieThree.image = UIImage(named: "movie\(Int.random(in: 1...4))")
+         */
     }
     
     func shufflePosters() -> [()] {
