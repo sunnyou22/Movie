@@ -28,6 +28,7 @@
 		90516E8D2872766300A7D1B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90516E902872766300A7D1B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90516E922872766300A7D1B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9085196D2877F60E00410B66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				901DB6A2287598A500A87838 /* SignUpViewController.swift */,
 				90516E8A2872765F00A7D1B2 /* Main.storyboard */,
 				904BFE932873DAB10043B762 /* SecondViewController.swift */,
+				9085196D2877F60E00410B66 /* README.md */,
 				90516E8D2872766300A7D1B2 /* Assets.xcassets */,
 				90516E8F2872766300A7D1B2 /* LaunchScreen.storyboard */,
 				90516E922872766300A7D1B2 /* Info.plist */,
