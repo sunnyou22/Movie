@@ -43,6 +43,7 @@ class SignUpViewController: UIViewController {
             i.borderStyle = .roundedRect
             i.backgroundColor = UIColor.gray
             i.textColor = .white
+            // textFieldName.attributedPlaceholder = NSAttributedString(string: placeholder, attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
         }
         
         informationSwitch.setOn(false, animated: true)
@@ -63,6 +64,7 @@ class SignUpViewController: UIViewController {
         textField.text = text
         textField.placeholder = placeholder
         textField.keyboardType = keyboardType
+        textField.attributedPlaceholder = NSAttributedString(string: placeholder, attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
     }
     
     @IBAction func isSecureTextEntry(_ sender: UITextField) {
