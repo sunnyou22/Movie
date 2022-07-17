@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90075F9C2883DA4F008B8614 /* SecondVeiw2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90075F9B2883DA4F008B8614 /* SecondVeiw2ViewController.swift */; };
 		901DB6A3287598A500A87838 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901DB6A2287598A500A87838 /* SignUpViewController.swift */; };
 		904BFE942873DAB10043B762 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904BFE932873DAB10043B762 /* SecondViewController.swift */; };
 		90516E852872765F00A7D1B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90516E842872765F00A7D1B2 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90075F9B2883DA4F008B8614 /* SecondVeiw2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVeiw2ViewController.swift; sourceTree = "<group>"; };
 		901DB6A2287598A500A87838 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		904BFE932873DAB10043B762 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		90516E812872765F00A7D1B2 /* Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +69,7 @@
 				901DB6A2287598A500A87838 /* SignUpViewController.swift */,
 				90516E8A2872765F00A7D1B2 /* Main.storyboard */,
 				904BFE932873DAB10043B762 /* SecondViewController.swift */,
+				90075F9B2883DA4F008B8614 /* SecondVeiw2ViewController.swift */,
 				9085196D2877F60E00410B66 /* README.md */,
 				90516E8D2872766300A7D1B2 /* Assets.xcassets */,
 				90516E8F2872766300A7D1B2 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 				90516E852872765F00A7D1B2 /* AppDelegate.swift in Sources */,
 				90516E872872765F00A7D1B2 /* SceneDelegate.swift in Sources */,
 				904BFE942873DAB10043B762 /* SecondViewController.swift in Sources */,
+				90075F9C2883DA4F008B8614 /* SecondVeiw2ViewController.swift in Sources */,
 				901DB6A3287598A500A87838 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

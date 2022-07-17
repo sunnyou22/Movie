@@ -17,6 +17,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var signUp: UIButton!
     @IBOutlet weak var additionalInformation: UILabel!
     @IBOutlet weak var informationSwitch: UISwitch!
+    @IBOutlet weak var passwordCheckButton: UIButton!
     @IBOutlet var textFieldList: [UITextField]!
     
     //MARK: - 뷰로드
@@ -66,6 +67,9 @@ class SignUpViewController: UIViewController {
         signUp.tintColor = .gray
         signUp.layer.cornerRadius = 5
         signUp.backgroundColor = .white
+        
+        passwordCheckButton.setTitle("중복\n확인", for: .normal)
+        passwordCheckButton.layer.backgroundColor = UIColor.blue.cgColor
     }
     
     //MARK: - 메서드
@@ -83,5 +87,29 @@ class SignUpViewController: UIViewController {
     
     @IBAction func disappeareText(_ sender: UITextField) {
         nickName.text = ""
+    }
+    
+    /*
+     텍스트 필드를 클릭하면 화면전환을 할 수 있는 방법은 없을까?
+     화면전환 코드가 너무 어렵다..
+     
+     @IBAction func locationTextFieldTest(_
+     
+     
+     }
+     */
+    
+    // 텍스트 필드는 버튼 역할을 하지 못하는 구나
+    @IBAction func passwordButton(_ sender: UIButton) {
+        let alert = UIAlertController(title: "알림", message: "사용가능한 비밀 번호입니다.", preferredStyle: .alert)
+        let defaultAction = UIAlertAction(title: "default", style: .default)
+        let cancelAction = UIAlertAction(title: "cancel", style: .cancel, handler: .none)
+        let destructiveAction = UIAlertAction(title: "destructive", style: .destructive)
+        
+        alert.addAction(defaultAction)
+        alert.addAction(cancelAction)
+        alert.addAction(destructiveAction)
+        
+        self.present(alert, animated: false)
     }
 }
