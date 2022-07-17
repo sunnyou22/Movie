@@ -45,10 +45,19 @@ class SignUpViewController: UIViewController {
             i.textColor = .white
             // textFieldName.attributedPlaceholder = NSAttributedString(string: placeholder, attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
         }
-        
+        /*
+         switchButton.onTintColor = UIColor.blue
+         switchButton.tintColor = UIColor.red
+         switchButton.thumbTintColor = UIColor.white
+         switchButton.backgroundColor = UIColor.red
+         switchButton.layer.cornerRadius = 1
+         */
         informationSwitch.setOn(false, animated: true)
         informationSwitch.onTintColor = .magenta
+        informationSwitch.tintColor = .white
         informationSwitch.thumbTintColor = .lightGray
+        informationSwitch.backgroundColor = .blue
+        informationSwitch.layer.cornerRadius = 16
         
         
         signUp.setTitle("회원가입", for: .normal)
